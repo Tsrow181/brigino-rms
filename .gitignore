@@ -1,4 +1,17 @@
 # CakePHP 3
+#dotenv environment variables file
+.env
+
+# Vendor directory (managed by Composer)
+/vendor/
+
+# Log files
+/storage/logs/
+*.log
+
+# IDE/Editor specific files
+.vscode/
+.idea/
 
 /vendor/*
 /config/app.php
